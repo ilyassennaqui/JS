@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Learn JS</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nam repellat reiciendis, quae rerum facilis sapiente minima nulla dolorum fuga, harum vitae? Soluta iusto quasi commodi obcaecati facilis aut fugit id dolorem suscipit esse, a impedit explicabo beatae accusamus ipsum similique harum praesentium! Similique veniam ipsa quidem veritatis cupiditate? Sapiente quam quidem veritatis dolores eum, voluptatum hic obcaecati deserunt laboriosam iusto? Qui nihil repellat labore magni molestiae fugit voluptatem, provident nostrum incidunt exercitationem iusto voluptatum veritatis recusandae aperiam, porro corporis quae nulla minima cum voluptate, magnam similique tenetur. Vel accusantium excepturi unde praesentium ad ipsa facilis corporis sapiente fugit harum!</p>
+    </div>
+    <button id="btn1">Appliquer style</button>
+    <script>
+        let para=document.querySelector("p");
+        let btn=document.querySelector("#btn1");
+        //attacher au boutton btn l'evenement click
+        //en
+        btn.addEventListener("click",function(){
+            //un couleur de fond noir pour le para
+            para.style.background="black";
+            para.style.color="white";
+            para.style.fontSize="24px"
+            para.style.textAlign="center"
+            para.style.margin="10px"
+            para.style.border="1px dashed red"
+            para.style.fontFamily="courrier new"
+        })
+    </script>
+</body>
+</html>
